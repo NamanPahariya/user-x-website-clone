@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* for everyone */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.root {
+    --primary-text-color: #183b56;
+    --primary-links: (#007aff);
+    --padding-inline: (20px)
+}
+
+h2,
+h3 {
+    color: #444444;
+    
+}
+
+.container {
+    max-width: 1450px;
+    padding: var(--padding-inline);
+    margin-inline: auto;
+}
+
+p {
+    color: #2b2517;
+    font-family: 'roboto';
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+hr {
+    width: 840px;
+
+}
+
+/* nav bar */
+
+ul {
+    list-style: none;
+    gap: 20px;
+}
+/* nav{
+    position: sticky;
+    top: 0.3px;
+    z-index: 2;
+    background-color: white;
+} */
+
+
+
+.main-nav {
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.hover-links {
+    color: var(--primary-text-color)
+}
+
+.hover-links:hover {
+    color: #007aff;
+    transition: 0.2s ease-out;
+}
+
+.first-btn {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.2s ease-out;
+}
+
+
+.second-btn {
+    background-color: #ffd600;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.second-btn:hover {
+    background-color: #ebc71c;
+    color: #444444;
+    transition: 0.2s ease-out;
+}
+
+/* header section */
+
+.choose {
+    border: none;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.header-section {
+    justify-content: space-between;
+}
+
+.left-upper-content {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.right-image img {
+    width: 700px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+}
+
+/* main-section */
+
+.main-section {
+    justify-content: space-between;
+}
+
+.main-section-left {
+    width: 400px;
+    font-size: 1.5rem;
+    position: relative;
+    left: 50px;
+}
+
+.main-section-right img {
+    position: relative;
+    left: 10px;
+    margin-top: 50px;
+}
+
+.main-section2 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    right: 80px;
+}
+
+.main-section-right2 img {
+    width: 700px;
+    position: relative;
+    left: 50px;
+
+}
+
+.h-3,
+.h-2,
+.h-1 {
+    background-color: #ffd600;
+    color: #444444;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* footer-section */
+
+.footer-section1 {
+    background-color: #fff6ce;
+    text-align: center;
+    height: 200px;
+}
+
+.footer-section1 a {
+    margin-top: 20px;
+}
+
+.footer-section2 {
+    height: 200px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.footer-section2 p {
+    font-size: 1.3rem;
+}
+
+.footer-section3 {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffd600;
+
+}
+
+.footer-section3-right {
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.footer-links {
+    color: #444444;
+    transition: 0.1s ease-out;
+}
+
+.footer-links:hover {
+    background-color: peachpuff;
+    border-radius: 10px;
+}
+.footer-section4{
+   
+    background-color: #ffea8f;
+    height: 130px;
+    justify-content: space-between;
+}
+
+.icon-links-section{
+position: relative;
+margin-left: 190px;
+margin-bottom: 20px;
+gap: 25px;
+}
+
+.icon-links{
+    border: 0.8px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    transition: 0.2s ease-out;
+}
+.icon-links:hover{
+    background-color: #444444;
+    color: white;
+}
+
+.footer-image1 img{
+    position: relative;
+right: 30px;
+bottom: 7px
+}
+.footer-image2 img{
+width: 80px;
+}
+.extra-links{
+    color: var(--primary-text-color);
+
+}
+.extra-links:hover{
+    color: #007aff;
+    transition: 0.2s ease-out;
+}
+.extra-links-section a{
+text-decoration: underline;
+position: relative;
+}
+.extra-links-section{
+    position: relative;
+top: 40px;
+right: 490px;}
+
+.footer-image-section{
+    position: relative;
+    right: 40px;
+}
